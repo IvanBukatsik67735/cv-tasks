@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CV</title>
-    <link rel="stylesheet" href="green.css" />
+    <link id="themeStylesheet" rel="stylesheet" href="green.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <header>
@@ -12,6 +13,11 @@
 
       <img src="../img/image.png" alt="Zdjecie" width="160" />
     </header>
+
+    <div class="controls">
+      <button id="themeButton">Zmień motyw</button>
+      <button id="toggleProjectsButton">Ukryj projekty</button>
+    </div>
 
     <main>
       <section>
@@ -92,7 +98,7 @@
         </p>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projekty</h2>
         <ul>
           <li>
