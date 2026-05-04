@@ -1,0 +1,22 @@
+{
+  "skills": [
+    "HTML",
+    "CSS",
+    "Git i GitHub",
+    "JavaScript",
+    "TypeScript",
+    "React + React Native"
+  ],
+  "projects": [
+    {
+      "name": "Aplikacja do kontroli finansów",
+      "description": "Aplikacja webowa napisana w React + TypeScript + Vite.",
+      "url": "https://github.com/endlesssjourney2/finance-tracker"
+    },
+    {
+      "name": "Projekt zespołowy",
+      "description": "Aplikacja frontendowa stworzona we współpracy (React + TS + Vite).",
+      "url": "https://github.com/endlesssjourney2/shop-project"
+    }
+  ]
+}
