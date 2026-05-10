@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe5e5;
+}
+
+header {
+  text-align: center;
+  margin: 30px 0;
+}
+
+img {
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid red;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin: 4px 0 4px 0;
+  font-weight: bold;
+  color: red;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 8px 10px;
+  border: 2px solid red;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: darkred;
+}
+
+.error {
+  color: crimson;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#contactForm button[type="submit"] {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#contactForm button[type="submit"]:hover {
+  background-color: darkred;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.controls button {
+  padding: 10px 18px;
+  border: 2px solid red;
+  background-color: #f9fff9;
+  color: red;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: red;
+  color: white;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin: 10px 20px;
+  border-radius: 8px;
+  border-left: 6px solid red;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: red;
+}
+
+h2 {
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+  color: red;
+}
+
+p {
+  margin: 10px 0 10px 5px;
+}
+
+ul {
+  margin: 10px 0 0 20px;
+}
+
+article {
+  margin: 20px 0 20px 10px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 14px;
+  color: red;
+}
+
+.notes-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.notes-input input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 2px solid red;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.notes-input button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.notes-input button:hover {
+  background-color: darkred;
+}
+
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete-note {
+  background: none;
+  border: 1px solid crimson;
+  color: crimson;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.delete-note:hover {
+  background-color: crimson;
+  color: white;
+}
